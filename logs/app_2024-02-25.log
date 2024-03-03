@@ -1,0 +1,84 @@
+2024-02-25 13:43:06,760 - INFO - Received form submission
+2024-02-25 13:43:06,760 - INFO - Input values: R&D Spend=-1, Administration=-2, Marketing Spend=3, State=Florida
+2024-02-25 13:43:06,760 - ERROR - Validation failed. Errors: ['R&D Spend must be a non-negative number', 'Administration must be a non-negative number', 'Marketing Spend must be a non-negative number']
+2024-02-25 13:43:14,331 - INFO - Received form submission
+2024-02-25 13:43:14,332 - INFO - Input values: R&D Spend=40000, Administration=3000, Marketing Spend=2000, State=Florida
+2024-02-25 13:43:14,332 - ERROR - Validation failed. Errors: ['R&D Spend must be a non-negative number', 'Administration must be a non-negative number', 'Marketing Spend must be a non-negative number']
+2024-02-25 13:43:50,225 - INFO - Received form submission
+2024-02-25 13:43:50,226 - INFO - Input values: R&D Spend=50000, Administration=500000, Marketing Spend=300000, State=Florida
+2024-02-25 13:43:50,226 - ERROR - Validation failed. Errors: ['R&D Spend must be a non-negative number', 'Administration must be a non-negative number', 'Marketing Spend must be a non-negative number']
+2024-02-25 13:46:59,704 - INFO - Received form submission
+2024-02-25 13:46:59,704 - INFO - Input values: R&D Spend=50000, Administration=500000, Marketing Spend=300000, State=Florida
+2024-02-25 13:46:59,704 - INFO - Input validation successful
+2024-02-25 13:46:59,704 - INFO - Making prediction
+2024-02-25 13:46:59,704 - INFO - Prediction: [69693.51211743]
+2024-02-25 13:47:04,893 - INFO - Received form submission
+2024-02-25 13:47:04,893 - INFO - Input values: R&D Spend=50000, Administration=500000, Marketing Spend=300000, State=Florida
+2024-02-25 13:47:04,893 - INFO - Input validation successful
+2024-02-25 13:47:04,895 - INFO - Making prediction
+2024-02-25 13:47:04,897 - INFO - Prediction: [69693.51211743]
+2024-02-25 13:47:13,204 - INFO - Received form submission
+2024-02-25 13:47:13,205 - INFO - Input values: R&D Spend=-1, Administration=500000, Marketing Spend=300000, State=Florida
+2024-02-25 13:47:13,205 - ERROR - Validation failed. Errors: ['R&D Spend must be a non-negative number']
+2024-02-25 13:47:51,183 - INFO - Received form submission
+2024-02-25 13:47:51,183 - INFO - Input values: R&D Spend=700, Administration=4000, Marketing Spend=2300, State=Florida
+2024-02-25 13:47:51,183 - INFO - Input validation successful
+2024-02-25 13:47:51,189 - INFO - Making prediction
+2024-02-25 13:47:51,189 - INFO - Prediction: [54443.63154469]
+2024-02-25 13:53:22,100 - INFO - Received form submission
+2024-02-25 13:54:51,766 - INFO - Received form submission
+2024-02-25 13:56:07,592 - INFO - Received form submission
+2024-02-25 13:56:55,895 - INFO - Received form submission
+2024-02-25 13:57:01,429 - INFO - Received form submission
+2024-02-25 13:58:31,716 - INFO - Received form submission
+2024-02-25 13:59:00,705 - INFO - Rendering home page
+2024-02-25 13:59:13,861 - INFO - Received form submission
+2024-02-25 13:59:13,863 - INFO - Input values: R&D Spend=40000, Administration=9000, Marketing Spend=3000, State=California
+2024-02-25 13:59:13,863 - INFO - Selected model: Linear Regression
+2024-02-25 13:59:13,863 - INFO - Input validation successful
+2024-02-25 13:59:13,963 - INFO - Making prediction
+2024-02-25 13:59:13,965 - INFO - Prediction: [85715.09261373]
+2024-02-25 14:00:28,687 - INFO - Received form submission
+2024-02-25 14:00:28,690 - INFO - Input values: R&D Spend=40000, Administration=9000, Marketing Spend=3000, State=California
+2024-02-25 14:00:28,690 - INFO - Selected model: Random Forest
+2024-02-25 14:00:28,690 - INFO - Input validation successful
+2024-02-25 14:09:43,310 - INFO - Rendering home page
+2024-02-25 14:09:55,002 - INFO - Received form submission
+2024-02-25 14:09:55,002 - INFO - Input values: R&D Spend=40000, Administration=500000, Marketing Spend=3000, State=New York
+2024-02-25 14:09:55,002 - INFO - Selected model: Linear Regression
+2024-02-25 14:09:55,002 - INFO - Input validation successful
+2024-02-25 14:09:55,403 - INFO - Making prediction
+2024-02-25 14:09:55,405 - INFO - Prediction: [52371.17036516]
+2024-02-25 14:10:33,759 - INFO - Received form submission
+2024-02-25 14:10:33,759 - INFO - Input values: R&D Spend=40000, Administration=500000, Marketing Spend=3000, State=New York
+2024-02-25 14:10:33,759 - INFO - Selected model: Linear Regression
+2024-02-25 14:10:33,759 - INFO - Input validation successful
+2024-02-25 14:10:34,116 - INFO - Making prediction
+2024-02-25 14:10:34,132 - INFO - Prediction: [52371.17036516]
+2024-02-25 14:12:18,409 - INFO - Received form submission
+2024-02-25 14:12:18,410 - INFO - Input values: R&D Spend=-1, Administration=500000, Marketing Spend=3000, State=New York
+2024-02-25 14:12:18,410 - INFO - Selected model: Linear Regression
+2024-02-25 14:12:18,410 - ERROR - Validation failed. Errors: ['R&D Spend must be a non-negative number']
+2024-02-25 14:12:27,665 - INFO - Received form submission
+2024-02-25 14:12:27,665 - INFO - Input values: R&D Spend=-1, Administration=500000, Marketing Spend=3000, State=New York
+2024-02-25 14:12:27,665 - INFO - Selected model: Linear Regression
+2024-02-25 14:12:27,665 - ERROR - Validation failed. Errors: ['R&D Spend must be a non-negative number']
+2024-02-25 14:12:31,723 - INFO - Rendering home page
+2024-02-25 14:12:40,261 - INFO - Received form submission
+2024-02-25 14:12:46,047 - INFO - Received form submission
+2024-02-25 14:12:46,048 - INFO - Input values: R&D Spend=-1, Administration=2, Marketing Spend=-1, State=New York
+2024-02-25 14:12:46,048 - INFO - Selected model: Linear Regression
+2024-02-25 14:12:46,048 - ERROR - Validation failed. Errors: ['R&D Spend must be a non-negative number', 'Marketing Spend must be a non-negative number']
+2024-02-25 14:12:55,249 - INFO - Received form submission
+2024-02-25 14:12:55,249 - INFO - Input values: R&D Spend=1000, Administration=20000, Marketing Spend=200000, State=New York
+2024-02-25 14:12:55,250 - INFO - Selected model: Linear Regression
+2024-02-25 14:12:55,250 - INFO - Input validation successful
+2024-02-25 14:12:55,619 - INFO - Making prediction
+2024-02-25 14:12:55,619 - INFO - Prediction: [59778.42493097]
+2024-02-25 14:15:12,036 - INFO - Rendering home page
+2024-02-25 14:15:23,734 - INFO - Received form submission
+2024-02-25 14:15:23,736 - INFO - Input values: R&D Spend=5000, Administration=3000, Marketing Spend=20000, State=California
+2024-02-25 14:15:23,736 - INFO - Selected model: Random Forest
+2024-02-25 14:15:23,736 - INFO - Input validation successful
+2024-02-25 14:15:24,341 - INFO - Making prediction
+2024-02-25 14:15:24,360 - INFO - Prediction: [45013.7242]

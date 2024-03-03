@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profit Prediction</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+<body>
+    <div class="container">
+    <h1>Profit Prediction</h1>
+    <!-- Display errors if any -->
+    {% if errors %}
+    <div class="errors">
+        <ul>
+            {% for error in errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+<!-- Radio buttons for model selection -->
+ <!-- Radio buttons for model selection -->
+ 
+    <form action="/predict" method="post">
+        <fieldset>
+            <legend>Select Model:</legend>
+            {% for model_name, model_file in models.items() %}
+                <input type="radio" id="{{ model_name }}" name="model" value="{{ model_name }}">
+                <label for="{{ model_name }}">{{ model_name }}</label><br>
+            {% endfor %}
+        </fieldset>
+        <label for="rd_spend">R&D Spend:</label>
+        <input type="text" id="rd_spend" name="rd_spend"><br><br>
+        
+        <label for="administration">Administration:</label>
+        <input type="text" id="administration" name="administration"><br><br>
+        
+        <label for="marketing_spend">Marketing Spend:</label>
+        <input type="text" id="marketing_spend" name="marketing_spend"><br><br>
+        
+        <label for="state">State:</label>
+        <select id="state" name="state">
+            <option value="New York">New York</option>
+            <option value="California">California</option>
+            <option value="Florida">Florida</option>
+            <!-- Add more options if necessary -->
+        </select><br><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+</div>
+</body>
+</html>
